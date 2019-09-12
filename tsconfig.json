@@ -8,7 +8,7 @@
     "declaration": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
-    "types": ["hammerjs", "jasmine", "node"],
+    "types": ["jasmine", "node"],
     "lib": ["es2015", "dom"],
     "baseUrl": ".",
     "paths": {
