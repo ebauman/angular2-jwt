@@ -1,7 +1,7 @@
 {
-  "name": "@auth0/angular-jwt",
-  "version": "3.0.0",
-  "description": "JSON Web Token helper library for Angular",
+  "name": "angular-jwt-async",
+  "version": "0.0.1",
+  "description": "JSON Web Token helper library for Angular. Forked from @auth0/angular-jwt. Allows for async promises for whitelist and blacklist",
   "scripts": {
     "prepare": "ngc && npm run build",
     "build": "webpack --mode production"
@@ -16,15 +16,15 @@
     "authentication",
     "jwt"
   ],
-  "author": "Ryan Chenkie",
+  "author": "Eamon Bauman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/auth0/angular2-jwt/issues"
+    "url": "https://github.com/ebauman/angular2-jwt/issues"
   },
   "main": "bundles/core.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
-  "homepage": "https://github.com/auth0/angular2-jwt",
+  "homepage": "https://github.com/ebauman/angular2-jwt",
   "peerDependencies": {
     "@angular/common": ">=6.0.0"
   },
